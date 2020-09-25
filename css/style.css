@@ -1,0 +1,39 @@
+body {
+  font-size: 16px;
+  color: black;
+  font-family:'Oxygen', sans-serif;
+}
+h1{
+	text-shadow:5px 5px 10px black;
+}
+.para{
+	font-size: 40px;
+	text-decoration: underline;
+	text-shadow:5px 5px 10px black;
+}
+.navbar-brand{
+	padding-left: 0px;
+}
+.dropdown{
+	box-shadow: 5px 5px 7px black
+}
+@media (max-width: 767px){
+	body{
+		font-size: 12px;
+	}
+	.navbar-brand h1{
+		padding-left: 0px;
+		font-size: 27px;
+	}
+	.para{
+		font-size: 30px;
+	}
+	.dropdown{
+		margin-left: 0px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px){
+	.dropdown{
+		margin-left: 0px;
+	}
+}
