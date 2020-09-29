@@ -14,7 +14,6 @@
     <header>
      
     <nav class="navbar navbar-dark bg-primary">
-      
     <!-- Navbar content -->
     <a class="navbar-brand"><h1>Online Job Application</h1></a>
     <!--Dropdown content-->
@@ -49,17 +48,26 @@
   </div>
 </form><br>
   <div class="form-row">
-    <div class="form-group col-md-4">
+    <div class="form-group col-md-3 col-sm-6">
+      <label for="example-date-input">Date of Birth</label>
+      <input class="form-control" type="date" placeholder="MM/DD/YYYY" id="example-date-input">
+    </div>
+    <div class="form-group col-md-3 col-sm-6">
       <label for="inputmob">Mobile</label>
       <input type="tel" class="form-control" id="inputmob">
     </div>
-    <div class="form-group col-md-4">
+    <div class="form-group col-md-3 col-sm-6">
       <label for="inputEmail4">Email</label>
       <input type="email" class="form-control" id="inputEmail4">
     </div>
-    <div class="form-group col-md-4">
-      <label for="inputPassword4">Password</label>
-      <input type="password" class="form-control" id="inputPassword4">
+    <div class="form-group col-md-3 col-sm-6">
+      <label for="inputqualification">Gender</label>
+      <select id="inputqualification" class="form-control">
+        <option selected>Choose...</option>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="Transgender">Transgender</option>
+      </select>
     </div>
   </div><br>
   <div class="form-group">
@@ -152,7 +160,7 @@
       <label for="inputZip">Pin</label>
       <input type="text" class="form-control" id="inputZip">
     </div>
-    <div class="form-group col-md-4">
+    <div class="form-group col-md-3 col-sm-6">
       <label for="inputqualification">Qualification</label>
       <select id="inputqualification" class="form-control">
         <option selected>Choose...</option>
@@ -162,13 +170,17 @@
         <option value="PostGraduate">Post-Graduate</option>
       </select>
     </div>
-    <div class="form-group col-md-4">
+    <div class="form-group col-md-3 col-sm-6">
       <label for="inputapp">Applying For</label>
       <input type="text" class="form-control" id="inputapp">
     </div>
-    <div class="form-group col-md-4">
+    <div class="form-group col-md-3 col-sm-6">
       <label for="inputexp">Experience(In Years)</label>
       <input type="text" class="form-control" id="inputexp">
+    </div>
+    <div class="form-group col-md-3 col-sm-6">
+      <label for="inputPassword4">Password</label>
+      <input type="password" class="form-control" id="inputPassword4">
     </div>
   </div>
   <div class="form-group">
@@ -202,3 +214,4 @@
   <script src="js/script.js"></script>
 </body>
 </html>
+
